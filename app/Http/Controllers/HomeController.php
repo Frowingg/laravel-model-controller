@@ -8,10 +8,10 @@ use App\Movie;
 class HomeController extends Controller
 {
     public function index() {
-        $movie = Movie::all();
+        $movies = Movie::all();
 
         $data = [
-            'movie' => $movie
+            'movies' => $movies
         ];
         return view('home', $data);
     }
