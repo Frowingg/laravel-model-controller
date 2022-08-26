@@ -2,5 +2,5 @@
 
 @section('main_content')
     <h1>HOME</h1>
-    
+    {{dd($movie)}}
 @endsection
